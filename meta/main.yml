@@ -1,0 +1,22 @@
+---
+
+galaxy_info:
+  author: Robin Schneider
+  description: Configure /etc/login.defs
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+    - system
+  min_ansible_version: 1.3
+dependencies: []
+ansigenome_info:
+  github_url: "https://github.com/ypid/ansible-login_defs"
+  git_branch: "master"
+  # galaxy_id: "2980"
+
+  travis: True
