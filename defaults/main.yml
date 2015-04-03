@@ -1,0 +1,4 @@
+---
+
+login_defs_options:
+  umask: "027"
