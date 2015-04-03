@@ -1,8 +1,21 @@
 ## login_defs
 
 [![Travis CI](http://img.shields.io/travis/ypid/ansible-login_defs.svg?style=flat)](http://travis-ci.org/ypid/ansible-login_defs)
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-ypid.login_defs-660198.svg?style=flat)](https://galaxy.ansible.com/list#/roles/3314)
+[![Platforms](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-lightgrey.svg?style=flat)](#)
 
 
+
+### Installation
+
+This role requires at least Ansible `v1.3`. To install it, run:
+
+    ansible-galaxy install ypid.login_defs
+
+To install via git, run either:
+
+    git clone https://github.com/ypid/ansible-login_defs ypid.login_defs
+    git submodule add https://github.com/ypid/ansible-login_defs roles/ypid.login_defs
 
 
 
