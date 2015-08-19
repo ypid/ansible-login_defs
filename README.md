@@ -2,20 +2,34 @@
 
 [![Travis CI](http://img.shields.io/travis/ypid/ansible-login_defs.svg?style=flat)](http://travis-ci.org/ypid/ansible-login_defs)
 [![Ansible Galaxy](http://img.shields.io/badge/galaxy-ypid.login_defs-660198.svg?style=flat)](https://galaxy.ansible.com/list#/roles/3314)
-[![Platforms](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-lightgrey.svg?style=flat)](#)
+[![Platforms](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-lightgrey.svg?style=flat)](https://galaxy.ansible.com/list#/roles/3314)
+[![GitHub Tags](https://img.shields.io/github/tag/ypid/ansible-login_defs.svg)](https://github.com/ypid/ansible-login_defs)
+[![GitHub Stars](https://img.shields.io/github/stars/ypid/ansible-login_defs.svg)](https://github.com/ypid/ansible-login_defs)
 
 
+Configure /etc/login.defs.
+
+This is a really simple role to make slight adjustments to the `/etc/login.defs` file.
+
+For are more comprehensive management of your Linux systems checkout the [DebOps project][] and more specifically the [debops.auth][] role.
+
+[DebOps project]: http://debops.org/
+[debops.auth]: https://galaxy.ansible.com/list#/roles/1553
 
 ### Installation
 
 This role requires at least Ansible `v1.3`. To install it, run:
 
-    ansible-galaxy install ypid.login_defs
+```Shell
+ansible-galaxy install ypid.login_defs
+```
 
 To install via git, run either:
 
-    git clone https://github.com/ypid/ansible-login_defs ypid.login_defs
-    git submodule add https://github.com/ypid/ansible-login_defs roles/ypid.login_defs
+```Shell
+git clone https://github.com/ypid/ansible-login_defs.git ypid.login_defs
+git submodule add https://github.com/ypid/ansible-login_defs.git ypid.login_defs
+```
 
 
 
@@ -24,10 +38,12 @@ To install via git, run either:
 
 List of default variables available in the inventory:
 
-    ---
-    
-    login_defs_options:
-      umask: "027"
+```YAML
+---
+
+login_defs_options:
+  umask: "027"
+```
 
 
 

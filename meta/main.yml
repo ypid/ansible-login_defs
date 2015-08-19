@@ -2,7 +2,7 @@
 
 galaxy_info:
   author: Robin Schneider
-  description: Configure /etc/login.defs
+  description: Configure /etc/login.defs.
   platforms:
   - name: Debian
     versions:
@@ -20,3 +20,11 @@ ansigenome_info:
   galaxy_id: "3314"
 
   travis: True
+
+  synopsis: |
+    This is a really simple role to make slight adjustments to the `/etc/login.defs` file.
+
+    For are more comprehensive management of your Linux systems checkout the [DebOps project][] and more specifically the [debops.auth][] role.
+
+    [DebOps project]: http://debops.org/
+    [debops.auth]: https://galaxy.ansible.com/list#/roles/1553
