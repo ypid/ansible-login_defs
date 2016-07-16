@@ -14,17 +14,3 @@ galaxy_info:
     - system
   min_ansible_version: 1.3
 dependencies: []
-ansigenome_info:
-  github_url: "https://github.com/ypid/ansible-login_defs"
-  git_branch: "master"
-  galaxy_id: "3314"
-
-  travis: True
-
-  synopsis: |
-    This is a really simple role to make slight adjustments to the `/etc/login.defs` file.
-
-    For are more comprehensive management of your Linux systems checkout the [DebOps project][] and more specifically the [debops.auth][] role.
-
-    [DebOps project]: http://debops.org/
-    [debops.auth]: https://galaxy.ansible.com/list#/roles/1553

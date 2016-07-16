@@ -1,0 +1,18 @@
+---
+
+ansigenome_info:
+  github_url: 'https://github.com/ypid/ansible-login_defs'
+  git_branch: 'master'
+  galaxy_id: '3314'
+
+  status:
+    name: 'deprecated'
+    note: 'It has been superseded by [debops.auth][].'
+
+  travis: True
+
+  synopsis: |
+    This is a really simple role to make slight adjustments to the `/etc/login.defs` file.
+
+    [DebOps project]: http://debops.org/
+    [debops.auth]: https://galaxy.ansible.com/debops/auth/
